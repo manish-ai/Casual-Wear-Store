@@ -1,0 +1,56 @@
+
+:root {
+  --mainBlue: #0a0404;
+  --lightBlue: #679191;
+  --mainWhite: #f3f3f3;
+  --mainDark: #000000;
+  --mainYellow: #ffa400;
+  --orange:rgb(36, 25, 19);
+  --rfs:  #f383b8;
+  
+} 
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background: rgba(252, 241, 241, 0.89) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Times New Roman';
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+.blue{
+  color: rgb(44, 44, 109);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: .8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: .1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important; 
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+.logout:hover{
+  background-color: black;
+}
